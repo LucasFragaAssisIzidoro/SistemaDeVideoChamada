@@ -8,13 +8,16 @@
     "deploy": "twilio-run deploy"
   },
   "dependencies": {
-    "@twilio/runtime-handler": "^1.2.3",
+    "@twilio/runtime-handler": "1.2.3",
     "twilio": "^5.0.0-rc.1"
   },
   "devDependencies": {
-    "twilio-run": "^2.5.0"
+    "twilio-run": "^3.5.4"
   },
   "engines": {
     "node": "18"
+  },
+  "resolutions": {
+    "punycode": "^2.3.1"
   }
 }
